@@ -42,10 +42,10 @@ server.get('/weather',(req,res)=>{
         console.log(time);
       
         let whetherObj=new Weather(descreption,time);
-        res.send(whetherObj);
+        
     }
     console.log(Weather.all);
-
+    res.send(Weather.all);
 
 
 })
