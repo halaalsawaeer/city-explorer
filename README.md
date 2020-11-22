@@ -1,6 +1,6 @@
 # city-explorer
 
-**Author**: Your Name Goes Here
+**Author**: Hala + Mohammed Miqdad
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
@@ -20,3 +20,33 @@
 ## Credits and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 -->
+
+Number and name of feature: 1. Repository Set Up
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 2:15
+
+Finish time: 3:50
+
+Actual time needed to complete: it took one hour and half
+
+Number and name of feature: Location
+
+Estimate of time needed to complete: 15 minute
+
+Start time: 11:50
+
+Finish time: 11:58
+
+Actual time needed to complete: 8 minutes
+
+Number and name of feature:Weather
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 3:50
+
+Finish time: 7:30
+
+Actual time needed to complete: 4 hours

@@ -8,6 +8,27 @@ const server =express();
 server.use(cors());
 
 const PORT=process.env.PORT|| 3000;
+
+server.get('/location', (req, res) => {
+    // res.send('location route is working')
+
+    // get data from location.json
+    const locationData = require('./data/location.json');
+    console.log(locationData);
+    const locationObj = new Location('Lynnwood',locationData)
+    res.send(locationObj);
+    //send back a response 
+
+})
+function Location(city,locData) {
+    this.search_query = city;
+    this.formatted_query=locData[0].display_name;
+    this.latitude = locData[0].lat;
+    this.longitude = locData[0].lon; 
+}
+
+
+
 let weather =require('./data/weather.json');
 
 
